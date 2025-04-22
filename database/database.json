@@ -1,0 +1,618 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "manh@gmail.com",
+      "fullName": "Đặng Văn Mạnh",
+      "password": "manh1234", 
+      "createdAt": "2025-04-18T12:00:00.000Z", 
+      "updatedAt": "2025-04-18T12:00:00.000Z"  
+    },
+    {
+      "id": "2",
+      "email": "hien@gmail.com",
+      "fullName": "Nguyễn Thị Hiền",
+      "password": "hien5678", 
+      "createdAt": "2025-04-19T14:00:00.000Z", 
+      "updatedAt": "2025-04-19T14:00:00.000Z"  
+    },
+    {
+      "id": "3",
+      "email": "son@gmail.com",
+      "fullName": "Trần Văn Sơn",
+      "password": "son9876", 
+      "createdAt": "2025-04-20T10:00:00.000Z", 
+      "updatedAt": "2025-04-20T10:00:00.000Z"  
+    }
+  ]
+  ,
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "Which activity involves using a keyboard?",
+      "answers": ["Cooking", "Running", "Typing", "Reading"],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Where is she going?",
+      "answers": ["To the airport", "To the office", "To a restaurant", "To the gym"],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "What do you do in the morning?",
+      "answers": ["Sleep", "Eat breakfast", "Watch TV", "Go to bed"],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Which of these is a daily activity?",
+      "answers": ["Skydiving", "Walking", "Camping", "Surfing"],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "What time do you usually wake up?",
+      "answers": ["6 AM", "12 PM", "8 PM", "3 AM"],
+      "correctIndex": 0
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "question": "Which meal do you have in the evening?",
+      "answers": ["Breakfast", "Lunch", "Dinner", "Snack"],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "How often do you exercise?",
+      "answers": ["Every day", "Once a week", "Once a month", "Never"],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "question": "What do people do on weekends?",
+      "answers": ["Work", "Rest", "Study", "Sleep"],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "topicId": 1,
+      "question": "What do you do after school?",
+      "answers": ["Go home", "Go to work", "Play sports", "Watch movies"],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "topicId": 1,
+      "question": "Which activity is relaxing?",
+      "answers": ["Studying", "Reading", "Running", "Working"],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "topicId": 1,
+      "question": "What is your favorite weekend activity?",
+      "answers": ["Sleeping", "Shopping", "Studying", "Working"],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "topicId": 1,
+      "question": "How do you usually get to work?",
+      "answers": ["By car", "By train", "Walking", "Bicycle"],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "topicId": 1,
+      "question": "What do you enjoy doing in your free time?",
+      "answers": ["Reading", "Cleaning", "Studying", "Working"],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "topicId": 1,
+      "question": "What is a common breakfast food?",
+      "answers": ["Pizza", "Pancakes", "Steak", "Sandwich"],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "topicId": 1,
+      "question": "What activity do you do before bed?",
+      "answers": ["Watch TV", "Exercise", "Read", "Cook"],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "topicId": 1,
+      "question": "When do you usually have lunch?",
+      "answers": ["8 AM", "12 PM", "5 PM", "10 PM"],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "topicId": 1,
+      "question": "What is a good way to relax?",
+      "answers": ["Studying", "Reading", "Working", "Driving"],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "topicId": 1,
+      "question": "What do you usually do in the evening?",
+      "answers": ["Work", "Study", "Watch movies", "All of the above"],
+      "correctIndex": 3
+    },
+    {
+      "id": 19,
+      "topicId": 1,
+      "question": "What is your favorite hobby?",
+      "answers": ["Sports", "Reading", "Cooking", "All of the above"],
+      "correctIndex": 3
+    },
+    {
+      "id": 20,
+      "topicId": 1,
+      "question": "Which activity do you prefer?",
+      "answers": ["Indoor", "Outdoor", "Both", "None"],
+      "correctIndex": 2
+    },
+    {
+      "id": 21,
+      "topicId": 2,
+      "question": "What is the past tense of 'buy'?",
+      "answers": ["buy", "buys", "bought", "buyed"],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "topicId": 2,
+      "question": "Which activity is a form of exercise?",
+      "answers": ["Jogging", "Singing", "Cooking", "Sleeping"],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "topicId": 2,
+      "question": "What is the capital of Italy?",
+      "answers": ["Rome", "Venice", "Florence", "Milan"],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "topicId": 2,
+      "question": "Which animal is known as man's best friend?",
+      "answers": ["Cat", "Dog", "Rabbit", "Fish"],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "topicId": 2,
+      "question": "What is the currency of the United States?",
+      "answers": ["Dollar", "Euro", "Pound", "Yen"],
+      "correctIndex": 0
+    },
+    {
+      "id": 26,
+      "topicId": 2,
+      "question": "Which planet is closest to the sun?",
+      "answers": ["Mercury", "Venus", "Earth", "Mars"],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "topicId": 2,
+      "question": "What is the largest ocean on Earth?",
+      "answers": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "correctIndex": 3
+    },
+    {
+      "id": 28,
+      "topicId": 2,
+      "question": "Which is the smallest continent?",
+      "answers": ["Asia", "Australia", "Europe", "Antarctica"],
+      "correctIndex": 1
+    },
+    {
+      "id": 29,
+      "topicId": 2,
+      "question": "What is the main ingredient in a Caesar salad?",
+      "answers": ["Lettuce", "Tomato", "Cucumber", "Carrot"],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "topicId": 2,
+      "question": "Which organ pumps blood in the human body?",
+      "answers": ["Liver", "Lungs", "Heart", "Kidneys"],
+      "correctIndex": 2
+    },
+    {
+      "id": 31,
+      "topicId": 2,
+      "question": "What is H2O more commonly known as?",
+      "answers": ["Oxygen", "Hydrogen", "Water", "Salt"],
+      "correctIndex": 2
+    },
+    {
+      "id": 32,
+      "topicId": 2,
+      "question": "Which country is known for the Great Wall?",
+      "answers": ["India", "China", "Japan", "Russia"],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "topicId": 2,
+      "question": "What is the largest desert in the world?",
+      "answers": ["Sahara", "Arabian", "Gobi", "Kalahari"],
+      "correctIndex": 0
+    },
+    {
+      "id": 34,
+      "topicId": 2,
+      "question": "What is the freezing point of water?",
+      "answers": ["0°C", "32°F", "100°C", "212°F"],
+      "correctIndex": 0
+    },
+    {
+      "id": 35,
+      "topicId": 2,
+      "question": "What is the chemical symbol for gold?",
+      "answers": ["Au", "Ag", "Fe", "Pb"],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "topicId": 3,
+      "question": "Which of the following is a color?",
+      "answers": ["Blue", "Guitar", "Car", "Piano"],
+      "correctIndex": 0
+    },
+    {
+      "id": 37,
+      "topicId": 3,
+      "question": "What is the opposite of 'happy'?",
+      "answers": ["Sad", "Angry", "Excited", "Tired"],
+      "correctIndex": 0
+    },
+    {
+      "id": 38,
+      "topicId": 3,
+      "question": "What is the largest continent?",
+      "answers": ["Asia", "Africa", "Europe", "North America"],
+      "correctIndex": 0
+    },
+    {
+      "id": 39,
+      "topicId": 3,
+      "question": "What is the opposite of 'up'?",
+      "answers": ["Down", "Left", "Right", "Forward"],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "topicId": 3,
+      "question": "What color is the sky during the day?",
+      "answers": ["Blue", "Green", "Red", "Yellow"],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "topicId": 3,
+      "question": "What is the opposite of 'night'?",
+      "answers": ["Day", "Morning", "Afternoon", "Evening"],
+      "correctIndex": 0
+    },
+    {
+      "id": 42,
+      "topicId": 3,
+      "question": "What is the shape of the Earth?",
+      "answers": ["Flat", "Cube", "Spherical", "Triangular"],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "topicId": 3,
+      "question": "Which of these is a fruit?",
+      "answers": ["Apple", "Carrot", "Cucumber", "Tomato"],
+      "correctIndex": 0
+    },
+    {
+      "id": 44,
+      "topicId": 3,
+      "question": "Which animal can fly?",
+      "answers": ["Bird", "Fish", "Lion", "Elephant"],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "topicId": 3,
+      "question": "Which number comes after ten?",
+      "answers": ["Nine", "Eleven", "Twelve", "Eight"],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "topicId": 3,
+      "question": "What is the capital of France?",
+      "answers": ["London", "Berlin", "Paris", "Rome"],
+      "correctIndex": 2
+    },
+    {
+      "id": 47,
+      "topicId": 3,
+      "question": "Which of the following is a mode of transportation?",
+      "answers": ["Car", "Book", "Table", "Piano"],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "topicId": 3,
+      "question": "What is the opposite of 'cold'?",
+      "answers": ["Hot", "Warm", "Cool", "Frozen"],
+      "correctIndex": 0
+    },
+    {
+      "id": 49,
+      "topicId": 3,
+      "question": "What is the capital of Japan?",
+      "answers": ["Beijing", "Tokyo", "Seoul", "Osaka"],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "topicId": 3,
+      "question": "Which of the following is an animal?",
+      "answers": ["Tiger", "Rose", "Table", "Sun"],
+      "correctIndex": 0
+    },
+    {
+      "id": 51,
+      "topicId": 3,
+      "question": "Which color is associated with danger?",
+      "answers": ["Red", "Blue", "Yellow", "Green"],
+      "correctIndex": 0
+    },
+    {
+      "id": 52,
+      "topicId": 3,
+      "question": "Which of these is a vegetable?",
+      "answers": ["Carrot", "Apple", "Banana", "Pineapple"],
+      "correctIndex": 0
+    },
+    {
+      "id": 53,
+      "topicId": 3,
+      "question": "What is the opposite of 'big'?",
+      "answers": ["Small", "Large", "Tall", "Short"],
+      "correctIndex": 0
+    },
+    {
+      "id": 54,
+      "topicId": 3,
+      "question": "Which of the following is a day of the week?",
+      "answers": ["Monday", "January", "Winter", "Summer"],
+      "correctIndex": 0
+    },
+    {
+      "id": 55,
+      "topicId": 3,
+      "question": "What shape is the moon?",
+      "answers": ["Circle", "Square", "Triangle", "Rectangle"],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "topicId": 3,
+      "question": "What is the capital of Spain?",
+      "answers": ["Madrid", "Paris", "Lisbon", "Rome"],
+      "correctIndex": 0
+    },
+    {
+      "id": 57,
+      "topicId": 3,
+      "question": "Which of these is a mode of transportation?",
+      "answers": ["Train", "Dog", "Pizza", "Fish"],
+      "correctIndex": 0
+    },
+    {
+      "id": 58,
+      "topicId": 3,
+      "question": "What color is the grass?",
+      "answers": ["Green", "Yellow", "Red", "Blue"],
+      "correctIndex": 0
+    },
+    {
+      "id": 59,
+      "topicId": 3,
+      "question": "Which of the following is a tree?",
+      "answers": ["Oak", "Rose", "Tulip", "Daffodil"],
+      "correctIndex": 0
+    },
+    {
+      "id": 60,
+      "topicId": 3,
+      "question": "What is the opposite of 'new'?",
+      "answers": ["Old", "Fresh", "Clean", "Wet"],
+      "correctIndex": 0
+    },
+    {
+      "id": 61,
+      "topicId": 3,
+      "question": "What do you call a young dog?",
+      "answers": ["Puppy", "Kitten", "Cub", "Chick"],
+      "correctIndex": 0
+    },
+    {
+      "id": 62,
+      "topicId": 3,
+      "question": "What is the color of the sun?",
+      "answers": ["Yellow", "Red", "Blue", "Green"],
+      "correctIndex": 0
+    },
+    {
+      "id": 63,
+      "topicId": 3,
+      "question": "Which of these is a fruit?",
+      "answers": ["Orange", "Potato", "Carrot", "Cucumber"],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "topicId": 3,
+      "question": "What is the largest planet?",
+      "answers": ["Jupiter", "Saturn", "Earth", "Mars"],
+      "correctIndex": 0
+    },
+    {
+      "id": 65,
+      "topicId": 3,
+      "question": "What is the main language spoken in the United States?",
+      "answers": ["English", "Spanish", "French", "German"],
+      "correctIndex": 0
+    },
+    {
+      "id": 66,
+      "topicId": 3,
+      "question": "Which of the following is a famous landmark in Egypt?",
+      "answers": ["Pyramids", "Colosseum", "Eiffel Tower", "Big Ben"],
+      "correctIndex": 0
+    },
+    {
+      "id": 67,
+      "topicId": 3,
+      "question": "What is the main ingredient in sushi?",
+      "answers": ["Rice", "Bread", "Potato", "Pasta"],
+      "correctIndex": 0
+    },
+    {
+      "id": 68,
+      "topicId": 3,
+      "question": "What color is a giraffe?",
+      "answers": ["Yellow", "Brown", "Green", "Pink"],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "topicId": 3,
+      "question": "Which of these is a mammal?",
+      "answers": ["Human", "Fish", "Bird", "Lizard"],
+      "correctIndex": 0
+    },
+    {
+      "id": 70,
+      "topicId": 3,
+      "question": "What is the opposite of 'fast'?",
+      "answers": ["Slow", "Quick", "Rapid", "Sudden"],
+      "correctIndex": 0
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Daily Activities",
+      "description": "Describe common tasks people do each day.",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Outdoor Activities",
+      "description": "Describe actions of people in parks, streets, or public spaces.",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Workplace Dialogues",
+      "description": "Conversations in office or professional settings.",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Service Conversations",
+      "description": "Practice dialogues in restaurants, shops, and hotels.",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Basic Grammar Review",
+      "description": "Reinforce core grammar structures.",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Tense Practice",
+      "description": "Practice different verb tenses in various contexts.",
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "name": "Prepositions and Connectors",
+      "description": "Review linking words and prepositional use.",
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "name": "Text Completion",
+      "description": "Choose the correct words to fill in blanks in texts.",
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "name": "Listening Comprehension",
+      "description": "Listen to passages and answer related questions.",
+      "status": "active"
+    }
+  ],
+  "tests": [
+    {
+      "id": 1,
+      "name": "TOEIC Practice Test 1",
+      "questionIds": [1, 2, 3],
+      "duration": 30,
+      "description": "A short 3-question practice test covering listening and grammar.",
+      "status": "active",
+      "createdAt": "2025-04-18T12:00:00.000Z",
+      "updatedAt": "2025-04-18T12:00:00.000Z"
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "userId": 1,
+      "testId": 1,
+      "score": 15,
+      "correctAnswers": 3,
+      "totalQuestions": 3,
+      "submittedAt": "2025-04-18T13:00:00.000Z",
+      "userAnswers": [
+        { "questionId": 1, "selectedAnswer": "Typing", "isCorrect": true },
+        {
+          "questionId": 2,
+          "selectedAnswer": "To the office",
+          "isCorrect": true
+        },
+        { "questionId": 3, "selectedAnswer": "bought", "isCorrect": true }
+      ]
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "userId": 1,
+      "testId": 1,
+      "comments": "Great practice! I learned a lot.",
+      "createdAt": "2025-04-18T14:00:00.000Z"
+    }
+  ]
+}
