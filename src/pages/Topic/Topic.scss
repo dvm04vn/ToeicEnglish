@@ -1,0 +1,60 @@
+/* Topic.scss */
+
+.topic-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .topic-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .table-wrapper {
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ccc;
+    }
+  
+    th {
+      background-color: #e2e2e2;
+      font-weight: bold;
+    }
+  
+    td {
+      color: #333;
+    }
+  
+    .action-link {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .loading,
+  .error {
+    color: #ff6347;
+    font-weight: bold;
+  }
+  
+  .no-topics {
+    color: #ffc107;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,119 @@
+.header-layout {
+    width: 100%;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  
+    &__header {
+      background: orange;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+  
+    &__logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1f2937;
+      cursor: pointer;
+    }
+  }
+  
+  .menu {
+    ul {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    &__link {
+      text-decoration: none;
+      font-size: 16px;
+      color: #4b5563;
+      padding: 6px 10px;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+  
+      &:hover {
+        background-color: #f3f4f6;
+        color: #1f2937;
+      }
+  
+      &--active {
+        color: #1d4ed8;
+        font-weight: 600;
+        background-color: #e0e7ff;
+      }
+    }
+  }
+  
+  // _action
+  ._action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  
+    .portal {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+  
+      .myLearn-btn,
+      .notification-btn,
+      .avatar-btn {
+        background: none;
+        border: none;
+        font-size: 14px;
+        cursor: pointer;
+        color: #374151;
+        padding: 6px 10px;
+        border-radius: 6px;
+        transition: background-color 0.2s;
+  
+        &:hover {
+          background-color: #f3f4f6;
+        }
+      }
+  
+      .avatar {
+        position: relative;
+  
+        .dropdown {
+          display: none;
+          position: absolute;
+          top: 110%;
+          right: 0;
+          background: white;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+          overflow: hidden;
+          z-index: 10;
+  
+          button {
+            padding: 10px 16px;
+            width: 100%;
+            border: none;
+            background: white;
+            text-align: left;
+            cursor: pointer;
+            transition: background 0.2s;
+  
+            &:hover {
+              background: #f3f4f6;
+            }
+          }
+        }
+  
+        &:hover .dropdown {
+          display: block;
+        }
+      }
+    }
+  }
+  
