@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #e0f7fa, #fce4ec);
+  }
+  
+  .hero {
+    text-align: center;
+    max-width: 600px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 16px;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: #607d8b;
+    margin-bottom: 32px;
+  }
+  
+  .startBtn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #004d40;
+    }
+  }
+  
