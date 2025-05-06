@@ -20,6 +20,18 @@
       "fullName": "Trần Văn Sơn",
       "password": "son9876",
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.son9876.secretkey"
+    },
+    {
+      "id": "9c80",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.undefined.secretkey",
+      "createdAt": "2025-05-06T08:33:29.403Z",
+      "updatedAt": "2025-05-06T08:33:29.410Z"
+    },
+    {
+      "id": "f96d",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.undefined.secretkey",
+      "createdAt": "2025-05-06T08:47:38.200Z",
+      "updatedAt": "2025-05-06T08:47:38.205Z"
     }
   ],
   "questions": [
@@ -1250,8 +1262,4 @@
       "createdAt": "2025-04-18T14:00:00.000Z"
     }
   ]
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> edf09a549b0b977e8638f463da79876d943a41f5

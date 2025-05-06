@@ -6,6 +6,7 @@ import Avatar from "./components/Avatar";
 import Image from "../../../components/Image";
 import images from "../../../assets/index";
 import "./Header.scss";
+import Mylearn from "./components/Mylearn";
 
 const defaultFN = () => {};
 
@@ -48,7 +49,7 @@ function Header({ handleAuth = defaultFN }) {
     localStorage.removeItem("token");
     setUser(null);
     setIsToken(false);
-    // handleAuth(true); 
+    // handleAuth(true);
     // Reset auth state in parent
     navigate("/");
   };
@@ -89,9 +90,11 @@ function Header({ handleAuth = defaultFN }) {
           {isToken ? (
             <div className="portal">
               {/* My Courses */}
-              <div className="myLearn">
-                <button className="myLearn-btn">Khóa Học Của Tôi</button>
-              </div>
+              <Mylearn>
+                <button className={"myLearn-btn"} aria-describedby="">
+                  KHóa Học Của tôi
+                </button>
+              </Mylearn>
 
               {/* Notifications */}
               <div className="notification">
