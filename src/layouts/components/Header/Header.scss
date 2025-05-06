@@ -1,0 +1,211 @@
+// Variables for colors
+$color-primary: #1d4ed8;
+$color-secondary: #e0e7ff;
+$color-text: #4b5563;
+$color-bg: #f3f4f6;
+$color-white: #ffffff;
+$color-dark: #1f2937;
+$color-shadow: rgba(0, 0, 0, 0.05);
+
+.header-layout {
+  width: 100%;
+  background-color: $color-white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  &__header {
+    background: orange;
+    display: flex;
+    height: 63px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px $color-shadow;
+  }
+
+  &__logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: $color-dark;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+.menu {
+  ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-start;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 16px;
+    color: $color-text;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background-color: $color-bg;
+      color: $color-dark;
+    }
+
+    &--active {
+      color: $color-primary;
+      font-weight: 600;
+      background-color: $color-secondary;
+    }
+  }
+}
+
+
+._action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.portal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  .myLearn-btn,
+  .notification-btn,
+  .avatar-btn {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: $color-text;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background-color: $color-bg;
+      color: $color-dark;
+    }
+  }
+
+  .myLearn-btn {
+    border: 1px solid $color-primary;
+    color: $color-primary;
+    background-color: transparent;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  }
+
+  .avatar {
+    position: relative;
+
+    .avatar-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid $color-primary;
+      transition: border-color 0.3s;
+
+      &:hover {
+        border-color: darken($color-primary, 10%);
+      }
+    }
+
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 110%;
+      right: 0;
+      background: $color-white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      z-index: 10;
+      min-width: 150px;
+
+      button {
+        width: 100%;
+        padding: 10px 16px;
+        border: none;
+        background: $color-white;
+        text-align: left;
+        cursor: pointer;
+        font-size: 14px;
+        color: $color-text;
+        transition: background-color 0.2s ease;
+
+        &:hover {
+          background-color: $color-bg;
+          color: $color-dark;
+        }
+      }
+    }
+
+    &:hover .dropdown {
+      display: block;
+    }
+  }
+}
+// Error message styling
+.error-message {
+  background-color: lighten($color-primary, 45%);
+  color: darken($color-primary, 25%);
+  padding: 10px 20px;
+  margin: 10px auto;
+  max-width: 600px;
+  border: 1px solid darken($color-primary, 25%);
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .header-layout__header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 12px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  ._action {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .avatar .dropdown {
+    right: auto;
+    left: 0;
+  }
+}
