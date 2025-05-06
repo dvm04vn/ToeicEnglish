@@ -1,9 +1,6 @@
-const API_URL = "http://localhost:3002"; // URL của API
+  import { get } from "../utils/httpsRequest";
 
-export const getListQuestion = async (topicId) => {
-  const response = await fetch(`${API_URL}/questions?topicId=${topicId}`);
-  if (!response.ok) {
-    throw new Error("Network response was not ok");
-  }
-  return await response.json();
-};
+  export const getListQuestion = async (topicId) => {
+    const result = await get(`questions?topicId=${topicId}`);
+    return result;
+  };

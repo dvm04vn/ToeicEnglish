@@ -8,12 +8,15 @@ function Login() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   // const navigate = useNavigate();
-
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     const user = await login(email, password);
+    console.log(user)
     if (user) {
-      localStorage.setItem("token", user.id); // hoặc user.email tùy cách getUser
+      localStorage.setItem("token", user.token); 
+      
+      // console.log(user.id)
       window.location.reload();
       // hoặc navigate("/") nếu muốn chuyển hướng thay vì reload
       // navigate('/')

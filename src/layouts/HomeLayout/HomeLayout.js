@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import Auth from "../../components/Auth";
@@ -16,30 +16,34 @@ function HomeLayout({ children }) {
   const handleOnAuth = (is_login) => {
     setIsAuth(true);
     setIsLogin(is_login);
-};
+  };
 
-const handleClose = () => {
-  setIsAuth(false);
-};
+  const handleClose = () => {
+    setIsAuth(false);
+  };
 
   return (
-    <div className={cx("layout")}>
-      <div className={cx("wrapper")}>
-        <Header isLogin={!!localStorage.getItem("user")} handleAuth={handleOnAuth} />
+    <div className={cx("wrapper")}>
+      <Header
+        // isLogin={!!localStorage.getItem("user")}
+        handleAuth={handleOnAuth}
+      />
 
-        <div className={cx("content-wrapper")}>
+      <div className={cx("container")}>
+        <div className={cx("sidebar")}>
           <Sidebar />
-          <main className={cx("main-content")}>{children}</main>
         </div>
-
-        {isAuth && (
-          <div className={cx("auth")}>
-            <Auth is_login={isLogin} handleOnClose={handleClose} />
-          </div>
-        )}
-
-        <Footer />
+        <div className={cx("content")}>
+          <main className={cx("inner")}>{children}</main>
+        </div>
       </div>
+
+      {/* <Footer /> */}
+      {isAuth && (
+        <div className={cx("auth")}>
+          <Auth is_login={isLogin} handleOnClose={handleClose} />
+        </div>
+      )}
     </div>
   );
 }

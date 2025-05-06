@@ -1,20 +1,13 @@
-const API_URL = "http://localhost:3002"; // Kiểm tra URL này
+import { get } from "../utils/httpsRequest";
 
 // Lấy 1 chủ đề theo id
 export const getTopic = async (id) => {
-  const response = await fetch(`${API_URL}/topics/${id}`);
-  if (!response.ok) {
-    throw new Error("Network response was not ok");
-  }
-  return await response.json();
+  const result = await get(`topics/${id}`);
+  return result;
 };
 
 // ✅ Lấy danh sách tất cả các chủ đề
 export const getListTopic = async () => {
-  const response = await fetch(`${API_URL}/topics`);
-  if (!response.ok) {
-    throw new Error("Network response was not ok");
-  }
-  return await response.json();
+  const result = await get(`topics`);
+  return result;
 };
-

@@ -17,7 +17,7 @@
 
 /* Khi quay về trạng thái đăng nhập (login), nó sẽ thu nhỏ lại */
 .is_register {
-    animation: shrink 0.5s ease-in-out forwards;
+    animation: expand 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
 }
 
 // header

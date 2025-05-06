@@ -1,49 +1,51 @@
 const API_DOMAIN = "http://localhost:3002/";
 
+// Xử lý phản hồi chung
+const handleResponse = async (response) => {
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`HTTP ${response.status}: ${errorText}`);
+  }
+  return response.json();
+};
+
+// Hàm GET
 export const get = async (path) => {
-  const url = API_DOMAIN + path;
   try {
-    const response = await fetch(url);
-    if (!response.ok) throw new Error("GET request failed");
-    const result = await response.json();
-    return result;
+    const response = await fetch(`${API_DOMAIN}${path}`);
+    return await handleResponse(response);
   } catch (error) {
-    console.error("GET error:", error);
-    return null;
+    console.error("GET error:", error.message);
+    throw error; // Nên throw ra để bên ngoài bắt lỗi nếu cần
   }
 };
 
+// Hàm POST
 export const post = async (path, data) => {
-  const url = API_DOMAIN + path;
   try {
-    const response = await fetch(url, {
+    const response = await fetch(`${API_DOMAIN}${path}`, {
       method: "POST",
       headers: {
-        Accept: "application/json",
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
     });
-    if (!response.ok) throw new Error("POST request failed");
-    const result = await response.json();
-    return result;
+    return await handleResponse(response);
   } catch (error) {
-    console.error("POST error:", error);
-    return null;
+    console.error("POST error:", error.message);
+    throw error;
   }
 };
 
+// Hàm DELETE
 export const del = async (path) => {
-  const url = API_DOMAIN + path;
   try {
-    const response = await fetch(url, {
+    const response = await fetch(`${API_DOMAIN}${path}`, {
       method: "DELETE",
     });
-    if (!response.ok) throw new Error("DELETE request failed");
-    const result = await response.json();
-    return result;
+    return await handleResponse(response);
   } catch (error) {
-    console.error("DELETE error:", error);
-    return null;
+    console.error("DELETE error:", error.message);
+    throw error;
   }
 };
