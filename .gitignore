@@ -24,3 +24,4 @@ yarn-error.log*
 
 # Ignore database.json
 /database/database.json
+shop-demo/
