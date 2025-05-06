@@ -20,854 +20,368 @@
       "fullName": "Trần Văn Sơn",
       "password": "son9876",
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.son9876.secretkey"
-    },
-    {
-      "id": "0f08",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.undefined.secretkey",
-      "createdAt": "2025-05-06T02:05:30.846Z",
-      "updatedAt": "2025-05-06T02:05:30.851Z"
     }
   ],
   "questions": [
     {
       "id": "1",
       "topicId": 1,
-      "question": "Which activity involves using a keyboard?",
+      "question": "Sơ đồ nào là cách biểu diễn tốt để thể hiện dãy các hành động cho nhiều đối tượng và Use Case?",
       "answers": [
-        "Cooking",
-        "Running",
-        "Typing",
-        "Reading"
+        "Sơ đồ trạng thái (State Diagram)",
+        "Sơ đồ tuần tự (Sequence Diagram)",
+        "Sơ đồ cộng tác (Collaboration Diagram)",
+        "Sơ đồ hoạt động (Activity Diagram)"
       ],
-      "correctIndex": 2
+      "correctIndex": 3
     },
     {
       "id": "2",
       "topicId": 1,
-      "question": "Where is she going?",
+      "question": "Mối quan hệ (relationship) giữa class 1 và class 2 là:",
       "answers": [
-        "To the airport",
-        "To the office",
-        "To a restaurant",
-        "To the gym"
+        "Generalization",
+        "Aggregation",
+        "Composite",
+        "Association"
       ],
       "correctIndex": 1
     },
     {
       "id": "3",
       "topicId": 1,
-      "question": "What do you do in the morning?",
+      "question": "Phát biểu nào là đúng với hình vẽ dưới đây?",
       "answers": [
-        "Sleep",
-        "Eat breakfast",
-        "Watch TV",
-        "Go to bed"
+        "Foobar là con của Barfoo",
+        "Barfoo là con của Foobar",
+        "Foobar hiện thực hóa Barfoo",
+        "Barfoo hiện thực hóa Foobar"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "4",
       "topicId": 1,
-      "question": "Which of these is a daily activity?",
+      "question": "Kết quả của giai đoạn Elaboration trong quy trình RUP là?",
       "answers": [
-        "Skydiving",
-        "Walking",
-        "Camping",
-        "Surfing"
+        "Các yêu cầu chức năng (Use Cases)",
+        "Nền tảng cho việc đánh giá chi phí đến cuối dự án",
+        "Các yêu cầu phi chức năng trong bảng chi tiết bổ sung",
+        "Tất cả các trên đều đúng"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "5",
       "topicId": 1,
-      "question": "What time do you usually wake up?",
+      "question": "Một lớp con thừa kế từ lớp cha các:",
       "answers": [
-        "6 AM",
-        "12 PM",
-        "8 PM",
-        "3 AM"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "6",
-      "topicId": 1,
-      "question": "Which meal do you have in the evening?",
-      "answers": [
-        "Breakfast",
-        "Lunch",
-        "Dinner",
-        "Snack"
+        "Attributes, links",
+        "Attributes, operations",
+        "Attributes, operations, relationships",
+        "Relationships, operations, links"
       ],
       "correctIndex": 2
     },
     {
+      "id": "6",
+      "topicId": 1,
+      "question": "Đối với lược đồ sau, phát biểu nào là đúng?",
+      "answers": [
+        "A sử dụng B, bắt buộc",
+        "A sử dụng B, không bắt buộc",
+        "B sử dụng A, bắt buộc",
+        "B sử dụng A, không bắt buộc"
+      ],
+      "correctIndex": 0
+    },
+    {
       "id": "7",
       "topicId": 1,
-      "question": "How often do you exercise?",
+      "question": "Tính chất nào sau đây là KHÔNG phải là của Use case?",
       "answers": [
-        "Every day",
-        "Once a week",
-        "Once a month",
-        "Never"
+        "Phụ thuộc vào việc thực thi hệ thống",
+        "Thể hiện chức năng của hệ thống theo quan điểm của người dùng",
+        "Cho xem hệ thống ở mức cao",
+        "Chỉ tập trung vào nhu cầu mong đợi của user, không quan tâm đến các bước phải thực hiện"
       ],
       "correctIndex": 0
     },
     {
       "id": "8",
       "topicId": 1,
-      "question": "What do people do on weekends?",
+      "question": "Mô tả nào về tác nhân đúng nhất trong mô hình Use case?",
       "answers": [
-        "Work",
-        "Rest",
-        "Study",
-        "Sleep"
+        "Tác nhân bị giới hạn đối với người dùng tương tác với hệ thống đang được thiết kế",
+        "Tác nhân là bất kì thực thể nào bên ngoài hệ thống đang được thiết kế mà tương tác với hệ thống",
+        "Tác nhân bị giới hạn đối với các hệ thống mà tương tác với hệ thống đang được thiết kế",
+        "Tác nhân cung cấp dữ liệu cho hệ thống"
       ],
       "correctIndex": 1
     },
     {
       "id": "9",
       "topicId": 1,
-      "question": "What do you do after school?",
+      "question": "Tính đa hình có thể được mô tả như là:",
       "answers": [
-        "Go home",
-        "Go to work",
-        "Play sports",
-        "Watch movies"
+        "Che giấu nhiều cài đặt khác nhau dựa trên cùng một giao diện",
+        "Các thuộc tính và phương thức khác nhau của các lớp con có cùng lớp cha",
+        "Các lớp kết hợp (association class) với ràng buộc {or}",
+        "Sự tổng quát hoá (Generalization) các lớp con thừa kế"
       ],
       "correctIndex": 0
     },
     {
       "id": "10",
       "topicId": 1,
-      "question": "Which activity is relaxing?",
+      "question": "Ký hiệu nào được dùng để biểu diễn 1 use case?",
       "answers": [
-        "Studying",
-        "Reading",
-        "Running",
-        "Working"
+        "Hình chữ nhật",
+        "Hình ellipse",
+        "Hình chữ nhật bo góc",
+        "Hình tam giác"
       ],
       "correctIndex": 1
     },
     {
       "id": "11",
       "topicId": 1,
-      "question": "What is your favorite weekend activity?",
+      "question": "Trong giai đoạn nào của quy trình phát triển phần mềm RUP, ta thực hiện cài đặt hệ thống, thử nghiệm sản phẩm?",
       "answers": [
-        "Sleeping",
-        "Shopping",
-        "Studying",
-        "Working"
+        "Xây dựng (construction)",
+        "Chuyển giao (transition)",
+        "Inception",
+        "Elaboration"
       ],
       "correctIndex": 1
     },
     {
       "id": "12",
       "topicId": 1,
-      "question": "How do you usually get to work?",
+      "question": "Một mối liên hệ giữa hai lớp trong mô hình lớp:",
       "answers": [
-        "By car",
-        "By train",
-        "Walking",
-        "Bicycle"
+        "Thể hiện sự kế thừa giữa hai lớp",
+        "Cho phép sự tương tác giữa hai lớp",
+        "Cho phép sự tương tác giữa các đối tượng của hai lớp",
+        "Thể hiện sự phụ thuộc giữa hai lớp"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "13",
       "topicId": 1,
-      "question": "What do you enjoy doing in your free time?",
+      "question": "Một lớp được mô tả là tập các đối tượng chia sẻ cùng các:",
       "answers": [
-        "Reading",
-        "Cleaning",
-        "Studying",
-        "Working"
+        "Attributes (thuộc tính), behaviour (hành vi) and operations (hành động)",
+        "Identity (đặc tính), behaviour (hành vi) và state (trạng thái)",
+        "Attributes (thuộc tính), operations (hành động) và relationships (mối quan hệ)",
+        "Relationships (mối quan hệ), operations (hành động) và multiplicity (bản số)"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": "14",
       "topicId": 1,
-      "question": "What is a common breakfast food?",
+      "question": "Phát biểu nào sau đây đúng về Use cases?",
       "answers": [
-        "Pizza",
-        "Pancakes",
-        "Steak",
-        "Sandwich"
+        "Use Cases biểu diễn một cách nhìn bên ngoài (external view) của hệ thống (1)",
+        "Có sự tương quan giữa Use Cases và lớp bên trong hệ thống (2)",
+        "Không có sự tương quan giữa Use Cases và lớp bên trong hệ thống (3)",
+        "(1) và (3) đúng"
       ],
-      "correctIndex": 1
+      "correctIndex": 3
     },
     {
       "id": "15",
       "topicId": 1,
-      "question": "What activity do you do before bed?",
+      "question": "Loại nào sau đây là KHÔNG phải là actor?",
       "answers": [
-        "Watch TV",
-        "Exercise",
-        "Read",
-        "Cook"
+        "Khách hàng",
+        "Hệ thống thanh toán bên thứ ba",
+        "Cơ sở dữ liệu",
+        "Người quản trị hệ thống"
       ],
       "correctIndex": 2
     },
     {
       "id": "16",
       "topicId": 1,
-      "question": "When do you usually have lunch?",
+      "question": "Sơ đồ nào thể hiện cấu trúc tĩnh của hệ thống?",
       "answers": [
-        "8 AM",
-        "12 PM",
-        "5 PM",
-        "10 PM"
+        "Sequence diagram",
+        "Activity diagram",
+        "Class diagram",
+        "Component diagram"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "17",
       "topicId": 1,
-      "question": "What is a good way to relax?",
+      "question": "Một tác nhân (actor) có thể liên quan đến:",
       "answers": [
-        "Studying",
-        "Reading",
-        "Working",
-        "Driving"
+        "Duy nhất 1 use case",
+        "0 hay nhiều use case",
+        "1 hay nhiều use case",
+        "Tất cả đều đúng"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": "18",
       "topicId": 1,
-      "question": "What do you usually do in the evening?",
+      "question": "Mối quan hệ 'includes' nghĩa là gì?",
       "answers": [
-        "Work",
-        "Study",
-        "Watch movies",
-        "All of the above"
+        "Giống như một thủ tục con, nó là một use case được sử dụng bởi một use case khác",
+        "Là mối quan hệ cha-con giữa các use case",
+        "Một use case tùy chọn có thể được thêm vào",
+        "Mối quan hệ kế thừa giữa các use case"
       ],
-      "correctIndex": 3
+      "correctIndex": 0
     },
     {
       "id": "19",
       "topicId": 1,
-      "question": "What is your favorite hobby?",
+      "question": "Mục đích của sơ đồ triển khai (Deployment Diagram) là?",
       "answers": [
-        "Sports",
-        "Reading",
-        "Cooking",
-        "All of the above"
+        "Biểu diễn hành vi với cấu trúc điều khiển, có thể biểu diễn nhiều đối tượng trong một use case",
+        "Biểu diễn cấu trúc tĩnh của các khái niệm, các loại và các lớp",
+        "Giúp nắm được mục đích cơ bản của lớp, tốt cho việc khám phá việc cài đặt use case như thế nào",
+        "Biểu diễn cách bố trí các thành phần trên các nút phần cứng"
       ],
       "correctIndex": 3
     },
     {
       "id": "20",
       "topicId": 1,
-      "question": "Which activity do you prefer?",
+      "question": "Trong mô hình lớp UML, quan hệ giữa lớp Student và lớp Course là:",
       "answers": [
-        "Indoor",
-        "Outdoor",
-        "Both",
-        "None"
+        "Kế thừa (Inheritance)",
+        "Phụ thuộc (Dependency)",
+        "Kết hợp (Association)",
+        "Tập hợp (Aggregation)"
       ],
       "correctIndex": 2
     },
     {
       "id": "21",
-      "topicId": 2,
-      "question": "What is the past tense of 'buy'?",
+      "topicId": 1,
+      "question": "Trong giai đoạn Construction của RUP, trọng tâm chính là:",
       "answers": [
-        "buy",
-        "buys",
-        "bought",
-        "buyed"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "22",
-      "topicId": 2,
-      "question": "Which activity is a form of exercise?",
-      "answers": [
-        "Jogging",
-        "Singing",
-        "Cooking",
-        "Sleeping"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "23",
-      "topicId": 2,
-      "question": "What is the capital of Italy?",
-      "answers": [
-        "Rome",
-        "Venice",
-        "Florence",
-        "Milan"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "24",
-      "topicId": 2,
-      "question": "Which animal is known as man's best friend?",
-      "answers": [
-        "Cat",
-        "Dog",
-        "Rabbit",
-        "Fish"
+        "Thu thập yêu cầu",
+        "Phát triển phần mềm",
+        "Kiểm thử hệ thống",
+        "Triển khai sản phẩm"
       ],
       "correctIndex": 1
     },
     {
-      "id": "25",
-      "topicId": 2,
-      "question": "What is the currency of the United States?",
+      "id": "22",
+      "topicId": 1,
+      "question": "Sơ đồ nào sau đây KHÔNG thuộc nhóm behavior diagrams trong UML?",
       "answers": [
-        "Dollar",
-        "Euro",
-        "Pound",
-        "Yen"
+        "Activity diagram",
+        "State machine diagram",
+        "Use case diagram",
+        "Sequence diagram"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "23",
+      "topicId": 1,
+      "question": "Trong mối quan hệ kết hợp (association), bản số (multiplicity) 1..* có nghĩa là:",
+      "answers": [
+        "Chính xác 1",
+        "Ít nhất 1",
+        "Nhiều nhất 1",
+        "0 hoặc nhiều"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "24",
+      "topicId": 1,
+      "question": "Phát biểu nào SAI về lớp trừu tượng (abstract class)?",
+      "answers": [
+        "Có thể chứa phương thức trừu tượng",
+        "Không thể khởi tạo đối tượng",
+        "Phải chứa ít nhất một phương thức trừu tượng",
+        "Có thể chứa phương thức đã cài đặt"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "25",
+      "topicId": 1,
+      "question": "Trong UML, constraint {ordered} thường được dùng với:",
+      "answers": [
+        "Quan hệ kết hợp (association)",
+        "Quan hệ tập hợp (aggregation)",
+        "Quan hệ phụ thuộc (dependency)",
+        "Quan hệ tổng hợp (composition)"
       ],
       "correctIndex": 0
     },
     {
       "id": "26",
-      "topicId": 2,
-      "question": "Which planet is closest to the sun?",
+      "topicId": 1,
+      "question": "Kiểm thử hệ thống thường được thực hiện nhiều nhất trong giai đoạn RUP nào?",
       "answers": [
-        "Mercury",
-        "Venus",
-        "Earth",
-        "Mars"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "27",
-      "topicId": 2,
-      "question": "What is the largest ocean on Earth?",
-      "answers": [
-        "Atlantic",
-        "Indian",
-        "Arctic",
-        "Pacific"
+        "Inception",
+        "Elaboration",
+        "Construction",
+        "Transition"
       ],
       "correctIndex": 3
     },
     {
-      "id": "28",
-      "topicId": 2,
-      "question": "Which is the smallest continent?",
+      "id": "27",
+      "topicId": 1,
+      "question": "Trong use case diagram, quan hệ <<extend>> thể hiện:",
       "answers": [
-        "Asia",
-        "Australia",
-        "Europe",
-        "Antarctica"
+        "Mối quan hệ bắt buộc",
+        "Mối quan hệ tùy chọn",
+        "Mối quan hệ bao gồm",
+        "Mối quan hệ kế thừa"
       ],
       "correctIndex": 1
+    },
+    {
+      "id": "28",
+      "topicId": 1,
+      "question": "Phương thức nào KHÔNG thể có trong interface?",
+      "answers": [
+        "Phương thức trừu tượng",
+        "Phương thức tĩnh",
+        "Phương thức đã cài đặt",
+        "Phương thức mặc định"
+      ],
+      "correctIndex": 2
     },
     {
       "id": "29",
-      "topicId": 2,
-      "question": "What is the main ingredient in a Caesar salad?",
+      "topicId": 1,
+      "question": "Trong component diagram, lollipop symbol biểu diễn:",
       "answers": [
-        "Lettuce",
-        "Tomato",
-        "Cucumber",
-        "Carrot"
+        "Required interface",
+        "Provided interface",
+        "Component port",
+        "Connector"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": "30",
-      "topicId": 2,
-      "question": "Which organ pumps blood in the human body?",
+      "topicId": 1,
+      "question": "Trạng thái cuối cùng (final state) trong state machine diagram được biểu diễn bằng:",
       "answers": [
-        "Liver",
-        "Lungs",
-        "Heart",
-        "Kidneys"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "31",
-      "topicId": 2,
-      "question": "What is H2O more commonly known as?",
-      "answers": [
-        "Oxygen",
-        "Hydrogen",
-        "Water",
-        "Salt"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "32",
-      "topicId": 2,
-      "question": "Which country is known for the Great Wall?",
-      "answers": [
-        "India",
-        "China",
-        "Japan",
-        "Russia"
+        "Hình tròn đặc",
+        "Hình tròn viền đậm",
+        "Hình tròn có chữ F",
+        "Hình tròn bao quanh hình tròn nhỏ"
       ],
       "correctIndex": 1
-    },
-    {
-      "id": "33",
-      "topicId": 2,
-      "question": "What is the largest desert in the world?",
-      "answers": [
-        "Sahara",
-        "Arabian",
-        "Gobi",
-        "Kalahari"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "34",
-      "topicId": 2,
-      "question": "What is the freezing point of water?",
-      "answers": [
-        "0°C",
-        "32°F",
-        "100°C",
-        "212°F"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "35",
-      "topicId": 2,
-      "question": "What is the chemical symbol for gold?",
-      "answers": [
-        "Au",
-        "Ag",
-        "Fe",
-        "Pb"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "36",
-      "topicId": 3,
-      "question": "Which of the following is a color?",
-      "answers": [
-        "Blue",
-        "Guitar",
-        "Car",
-        "Piano"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "37",
-      "topicId": 3,
-      "question": "What is the opposite of 'happy'?",
-      "answers": [
-        "Sad",
-        "Angry",
-        "Excited",
-        "Tired"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "38",
-      "topicId": 3,
-      "question": "What is the largest continent?",
-      "answers": [
-        "Asia",
-        "Africa",
-        "Europe",
-        "North America"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "39",
-      "topicId": 3,
-      "question": "What is the opposite of 'up'?",
-      "answers": [
-        "Down",
-        "Left",
-        "Right",
-        "Forward"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "40",
-      "topicId": 3,
-      "question": "What color is the sky during the day?",
-      "answers": [
-        "Blue",
-        "Green",
-        "Red",
-        "Yellow"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "41",
-      "topicId": 3,
-      "question": "What is the opposite of 'night'?",
-      "answers": [
-        "Day",
-        "Morning",
-        "Afternoon",
-        "Evening"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "42",
-      "topicId": 3,
-      "question": "What is the shape of the Earth?",
-      "answers": [
-        "Flat",
-        "Cube",
-        "Spherical",
-        "Triangular"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "43",
-      "topicId": 3,
-      "question": "Which of these is a fruit?",
-      "answers": [
-        "Apple",
-        "Carrot",
-        "Cucumber",
-        "Tomato"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "44",
-      "topicId": 3,
-      "question": "Which animal can fly?",
-      "answers": [
-        "Bird",
-        "Fish",
-        "Lion",
-        "Elephant"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "45",
-      "topicId": 3,
-      "question": "Which number comes after ten?",
-      "answers": [
-        "Nine",
-        "Eleven",
-        "Twelve",
-        "Eight"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "46",
-      "topicId": 3,
-      "question": "What is the capital of France?",
-      "answers": [
-        "London",
-        "Berlin",
-        "Paris",
-        "Rome"
-      ],
-      "correctIndex": 2
-    },
-    {
-      "id": "47",
-      "topicId": 3,
-      "question": "Which of the following is a mode of transportation?",
-      "answers": [
-        "Car",
-        "Book",
-        "Table",
-        "Piano"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "48",
-      "topicId": 3,
-      "question": "What is the opposite of 'cold'?",
-      "answers": [
-        "Hot",
-        "Warm",
-        "Cool",
-        "Frozen"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "49",
-      "topicId": 3,
-      "question": "What is the capital of Japan?",
-      "answers": [
-        "Beijing",
-        "Tokyo",
-        "Seoul",
-        "Osaka"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "50",
-      "topicId": 3,
-      "question": "Which of the following is an animal?",
-      "answers": [
-        "Tiger",
-        "Rose",
-        "Table",
-        "Sun"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "51",
-      "topicId": 3,
-      "question": "Which color is associated with danger?",
-      "answers": [
-        "Red",
-        "Blue",
-        "Yellow",
-        "Green"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "52",
-      "topicId": 3,
-      "question": "Which of these is a vegetable?",
-      "answers": [
-        "Carrot",
-        "Apple",
-        "Banana",
-        "Pineapple"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "53",
-      "topicId": 3,
-      "question": "What is the opposite of 'big'?",
-      "answers": [
-        "Small",
-        "Large",
-        "Tall",
-        "Short"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "54",
-      "topicId": 3,
-      "question": "Which of the following is a day of the week?",
-      "answers": [
-        "Monday",
-        "January",
-        "Winter",
-        "Summer"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "55",
-      "topicId": 3,
-      "question": "What shape is the moon?",
-      "answers": [
-        "Circle",
-        "Square",
-        "Triangle",
-        "Rectangle"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "56",
-      "topicId": 3,
-      "question": "What is the capital of Spain?",
-      "answers": [
-        "Madrid",
-        "Paris",
-        "Lisbon",
-        "Rome"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "57",
-      "topicId": 3,
-      "question": "Which of these is a mode of transportation?",
-      "answers": [
-        "Train",
-        "Dog",
-        "Pizza",
-        "Fish"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "58",
-      "topicId": 3,
-      "question": "What color is the grass?",
-      "answers": [
-        "Green",
-        "Yellow",
-        "Red",
-        "Blue"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "59",
-      "topicId": 3,
-      "question": "Which of the following is a tree?",
-      "answers": [
-        "Oak",
-        "Rose",
-        "Tulip",
-        "Daffodil"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "60",
-      "topicId": 3,
-      "question": "What is the opposite of 'new'?",
-      "answers": [
-        "Old",
-        "Fresh",
-        "Clean",
-        "Wet"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "61",
-      "topicId": 3,
-      "question": "What do you call a young dog?",
-      "answers": [
-        "Puppy",
-        "Kitten",
-        "Cub",
-        "Chick"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "62",
-      "topicId": 3,
-      "question": "What is the color of the sun?",
-      "answers": [
-        "Yellow",
-        "Red",
-        "Blue",
-        "Green"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "63",
-      "topicId": 3,
-      "question": "Which of these is a fruit?",
-      "answers": [
-        "Orange",
-        "Potato",
-        "Carrot",
-        "Cucumber"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "64",
-      "topicId": 3,
-      "question": "What is the largest planet?",
-      "answers": [
-        "Jupiter",
-        "Saturn",
-        "Earth",
-        "Mars"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "65",
-      "topicId": 3,
-      "question": "What is the main language spoken in the United States?",
-      "answers": [
-        "English",
-        "Spanish",
-        "French",
-        "German"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "66",
-      "topicId": 3,
-      "question": "Which of the following is a famous landmark in Egypt?",
-      "answers": [
-        "Pyramids",
-        "Colosseum",
-        "Eiffel Tower",
-        "Big Ben"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "67",
-      "topicId": 3,
-      "question": "What is the main ingredient in sushi?",
-      "answers": [
-        "Rice",
-        "Bread",
-        "Potato",
-        "Pasta"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "68",
-      "topicId": 3,
-      "question": "What color is a giraffe?",
-      "answers": [
-        "Yellow",
-        "Brown",
-        "Green",
-        "Pink"
-      ],
-      "correctIndex": 1
-    },
-    {
-      "id": "69",
-      "topicId": 3,
-      "question": "Which of these is a mammal?",
-      "answers": [
-        "Human",
-        "Fish",
-        "Bird",
-        "Lizard"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "id": "70",
-      "topicId": 3,
-      "question": "What is the opposite of 'fast'?",
-      "answers": [
-        "Slow",
-        "Quick",
-        "Rapid",
-        "Sudden"
-      ],
-      "correctIndex": 0
     }
   ],
   "topics": [
@@ -1495,6 +1009,220 @@
           "answer": 0
         }
       ]
+    },
+    {
+      "id": "3764",
+      "userId": null,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": "1",
+          "answer": 0
+        },
+        {
+          "questionId": "2",
+          "answer": 0
+        },
+        {
+          "questionId": "3",
+          "answer": 0
+        },
+        {
+          "questionId": "4",
+          "answer": 0
+        },
+        {
+          "questionId": "5",
+          "answer": 0
+        },
+        {
+          "questionId": "6",
+          "answer": 0
+        },
+        {
+          "questionId": "7",
+          "answer": 0
+        },
+        {
+          "questionId": "8",
+          "answer": 0
+        },
+        {
+          "questionId": "9",
+          "answer": 0
+        },
+        {
+          "questionId": "10",
+          "answer": 0
+        },
+        {
+          "questionId": "11",
+          "answer": 0
+        },
+        {
+          "questionId": "12",
+          "answer": 0
+        },
+        {
+          "questionId": "13",
+          "answer": 0
+        },
+        {
+          "questionId": "14",
+          "answer": 0
+        },
+        {
+          "questionId": "15",
+          "answer": 0
+        },
+        {
+          "questionId": "16",
+          "answer": 0
+        },
+        {
+          "questionId": "17",
+          "answer": 0
+        },
+        {
+          "questionId": "18",
+          "answer": 0
+        },
+        {
+          "questionId": "19",
+          "answer": 0
+        },
+        {
+          "questionId": "20",
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "92ff",
+      "userId": null,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": "1",
+          "answer": 3
+        },
+        {
+          "questionId": "2",
+          "answer": 1
+        },
+        {
+          "questionId": "3",
+          "answer": 3
+        },
+        {
+          "questionId": "4",
+          "answer": 3
+        },
+        {
+          "questionId": "5",
+          "answer": 2
+        },
+        {
+          "questionId": "6",
+          "answer": 0
+        },
+        {
+          "questionId": "7",
+          "answer": 0
+        },
+        {
+          "questionId": "8",
+          "answer": 1
+        },
+        {
+          "questionId": "9",
+          "answer": 0
+        },
+        {
+          "questionId": "10",
+          "answer": 3
+        },
+        {
+          "questionId": "11",
+          "answer": 1
+        },
+        {
+          "questionId": "12",
+          "answer": 2
+        },
+        {
+          "questionId": "13",
+          "answer": 2
+        },
+        {
+          "questionId": "14",
+          "answer": 3
+        },
+        {
+          "questionId": "15",
+          "answer": 2
+        },
+        {
+          "questionId": "16",
+          "answer": 3
+        },
+        {
+          "questionId": "17",
+          "answer": 2
+        },
+        {
+          "questionId": "18",
+          "answer": 0
+        },
+        {
+          "questionId": "19",
+          "answer": 3
+        },
+        {
+          "questionId": "20",
+          "answer": 0
+        },
+        {
+          "questionId": "21",
+          "answer": 0
+        },
+        {
+          "questionId": "22",
+          "answer": 0
+        },
+        {
+          "questionId": "23",
+          "answer": 0
+        },
+        {
+          "questionId": "24",
+          "answer": 0
+        },
+        {
+          "questionId": "25",
+          "answer": 1
+        },
+        {
+          "questionId": "26",
+          "answer": 0
+        },
+        {
+          "questionId": "27",
+          "answer": 0
+        },
+        {
+          "questionId": "28",
+          "answer": 0
+        },
+        {
+          "questionId": "29",
+          "answer": 0
+        },
+        {
+          "questionId": "30",
+          "answer": 0
+        }
+      ]
     }
   ],
   "tests": [
@@ -1511,34 +1239,6 @@
       "status": "active",
       "createdAt": "2025-04-18T12:00:00.000Z",
       "updatedAt": "2025-04-18T12:00:00.000Z"
-    }
-  ],
-  "results": [
-    {
-      "id": "1",
-      "userId": 1,
-      "testId": 1,
-      "score": 15,
-      "correctAnswers": 3,
-      "totalQuestions": 3,
-      "submittedAt": "2025-04-18T13:00:00.000Z",
-      "userAnswers": [
-        {
-          "questionId": 1,
-          "selectedAnswer": "Typing",
-          "isCorrect": true
-        },
-        {
-          "questionId": 2,
-          "selectedAnswer": "To the office",
-          "isCorrect": true
-        },
-        {
-          "questionId": 3,
-          "selectedAnswer": "bought",
-          "isCorrect": true
-        }
-      ]
     }
   ],
   "feedback": [
