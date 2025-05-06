@@ -2,9 +2,18 @@ import { get, post } from "../utils/httpsRequest";
 
 // Login bằng email + password
 export const login = async (email, password) => {
-  const query = `users?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`;
-  const users = await get(query);
-  return users.length > 0 ? users[0] : null;
+  try {
+    const users = await get(`users?email=${encodeURIComponent(email)}`);
+    const user = users.find(u => u.password === password); // kiểm tra password phía client
+
+    if (!user) return null;
+
+    localStorage.setItem("token", user.id);
+    return user;
+  } catch (error) {
+    console.error("Login failed:", error);
+    return null;
+  }
 };
 
 // Register: tạo user mới
